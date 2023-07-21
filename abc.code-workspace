@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "componentX"
+		},
+		{
+			"path": "componentY"
+		}
+	],
+	"settings": {}
+}
