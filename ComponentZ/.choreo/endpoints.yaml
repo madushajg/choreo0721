@@ -7,15 +7,3 @@ endpoints:
     networkVisibility: Organization
     context: /basepath1
     schemaFilePath: openapi.yaml
-connections:
-  # - id: choreo://<Project>HR/<Service>EmployeeService/<Version>v1/<Endpoint>endpoint
-  - id: choreo://A/X2/v1/x2endpoint1
-    mappings:
-      - service.url: X2_SVC_URL
-      - consumer.secret: X2_SVC_CONSUMER_SECRET
-      - consumer.key: X2_SVC_CONSUMER_KEY
-      - token.url: X2_SVC_TOKEN_URL
-Config:
- EnvVariables:
-   - LOG_LEVEL = ERROR
-   - THREAD_POOL_SIZE = 10
